@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg') no-repeat center center/cover;
+  }
+
+  form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  select,
+  input[type="number"],
+  input[type="date"],
+  input[type="text"],
+  input[type="password"],
+  input[type="email"], 
+  input[type="name"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom:20px;
+    margin-top:20px ;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"]{
+    background-color: #51b556;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  /*.form-switch {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+  }*/
+  h2{
+      text-align: center;
+      margin: 0px;
+  }
+  #login-form, #search{
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  #signup-form{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  #reservation{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
